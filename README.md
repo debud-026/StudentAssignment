@@ -52,9 +52,7 @@ Frontend Setup:-
 
 3.Open a terminal within VS Code.
 
-4.Run the command "npm install" to install the required dependencies.
-
-5.Execute the command "npm start" to start the React development server.
+4.Execute the command "npm start" to start the React development server.
 
 Accessing the Application:-
 
