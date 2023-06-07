@@ -2,7 +2,7 @@
 Project Overview
 This project is a web application built using MongoDB, Spring Boot, and ReactJS. It captures student information through a user-friendly interface and stores it in a MongoDB database. The application provides validation on both the frontend (ReactJS) and backend (Spring Boot) to ensure the input data is accurate. Upon successful validation, a unique admission number is generated for each student. The backend responds with all the student data, which is displayed in a sorted table on the right-hand side of the form.
 
-Technologies Used:=
+Technologies Used:-
 
 The project utilizes the following technologies:
 
