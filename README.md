@@ -2,6 +2,24 @@
 Project Overview
 This project is a web application built using MongoDB, Spring Boot, and ReactJS. It captures student information through a user-friendly interface and stores it in a MongoDB database. The application provides validation on both the frontend (ReactJS) and backend (Spring Boot) to ensure the input data is accurate. Upon successful validation, a unique admission number is generated for each student. The backend responds with all the student data, which is displayed in a sorted table on the right-hand side of the form.
 
+Technologies Used:=
+
+The project utilizes the following technologies:
+
+MongoDB: A NoSQL database used for storing student information.
+
+Spring Boot: A Java-based framework used for building the backend RESTful API.
+
+ReactJS: A JavaScript library used for building the frontend user interface.
+
+Node.js: A JavaScript runtime environment used for executing JavaScript code on the server-side.
+
+npm: A package manager for Node.js used to manage and install project dependencies.
+
+Eclipse IDE: An integrated development environment used for developing the backend code.
+
+Visual Studio Code (VS Code): A source code editor used for developing the frontend code.
+
 Prerequisites:-
 
 1.Make sure you have MongoDB installed on your system. You can download it from the official MongoDB website (https://www.mongodb.com/).
@@ -20,9 +38,11 @@ Backend Setup:-
 
 3.Import the backend project into your IDE.
 
-4.Start the MongoDB service and ensure it is running.
+4.Run the main class "StudentformApplication.java" which is inside the package "com.mozanta.studentform" inside source package "src/main/java"
 
-5.By default, MongoDB listens on port 27017. Make sure your MongoDB instance is running on this port.
+5.Start the MongoDB service and ensure it is running.
+
+6.By default, MongoDB listens on port 27017. Make sure your MongoDB instance is running on this port.
 
 Frontend Setup:-
 
@@ -32,7 +52,9 @@ Frontend Setup:-
 
 3.Open a terminal within VS Code.
 
-4.Execute the command "npm start" to start the React development server
+4.Run the command "npm install" to install the required dependencies.
+
+5.Execute the command "npm start" to start the React development server.
 
 Accessing the Application:-
 
